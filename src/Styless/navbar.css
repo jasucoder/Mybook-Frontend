@@ -1,0 +1,106 @@
+*{
+
+    margin:0;
+    padding: 0;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+.header-content{
+
+    max-width: 1280px;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 1rem;
+}
+.header{
+ background-color :black;
+  
+  margin-bottom: 2rem;
+  height: 90px;
+
+  
+}
+
+.logo{
+    display:flex ;
+    align-items: center;
+    font: size 2rem; 
+    font-weight:bold ;
+   color: black;
+   text-decoration: none;
+   gap:0.1rem;
+
+
+}
+.logo-icon{
+
+    height: 2.875rem;;
+    width:1.938rem;
+    
+    
+  
+ }
+ .logo-text{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    /*color: #2563eb;*/
+    color :white;
+ }
+ .navbar{
+
+    display: flex;
+    gap: 1.5rem;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+ .nav-link{
+
+    color:white;
+   
+    font-size: 1.5rem;
+    font-weight:800 ;
+    transform: color 0.1s;
+   /* background-color:blueviolet;
+    border-radius: 0.6rem;
+    padding: 0.75rem 1.5rem;*/
+ }
+ .nav-link:hover{
+
+    color:green;
+    text-decoration:underline;
+ }
+
+ .contact-button{
+
+    border:none;
+    border-radius: .600rem;
+    background-color: white;
+    color:black;
+    transform: all 0.1s;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+ }
+ .contact-button:hover{
+   
+   text-align: df;
+ }
+
+ 
+
+ #lblCartCount {
+   font-size: 20px;
+   background: #ff0000;
+   color: #fff;
+   padding: 0 5px;
+   vertical-align: top;
+   margin-left: -10px; 
+   border-radius: 50%;
+}

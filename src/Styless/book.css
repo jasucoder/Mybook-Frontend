@@ -1,0 +1,248 @@
+.product-crousel{
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+
+
+
+
+}
+.book-heading{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 4px 4px;
+    height: 50px;
+}
+
+
+
+.product-container{
+display: flex;
+padding: 15px 3px 3px 3px;
+overflow-x: hidden;
+scroll-behavior:smooth;
+cursor: pointer;
+height: 350px;
+width: 100%;
+
+margin-top: 15px;
+margin-bottom: 15px;
+
+
+background-color:white;
+
+
+
+
+}
+.book-container{
+
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+   
+    
+}
+.book-container:hover{
+    scale: 1.1;
+}
+
+
+
+.pre-btn , 
+.next-btn{
+
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.next-btn{
+
+    right: 0;
+}
+.pre-btn p, .next-btn p{
+    font-size: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 50%;
+    color: rgb(14, 12, 12);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/*  This is the second part  */
+
+.product-crouselsecond{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+  
+  
+  
+  
+  }
+  .book-headingsecond{
+  
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: antiquewhite;
+      padding: 10px 10px;
+      height: 50px;
+      
+  }
+  
+  
+  
+  .product-containersecond{
+  display: flex;
+
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+  cursor: pointer;
+  height: 350px;
+  width: 100%;
+
+  
+  background-color:white;
+  padding: 15px 3px 3px 3px;
+  
+  
+  
+  }
+  /*  This is the third part  */
+  
+  .product-crouselthird{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+  
+  
+  
+  
+  }
+  .book-headingthird{
+  
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: antiquewhite;
+      padding: 10px 10px;
+      height: 50px;
+      
+  }
+  
+  
+  
+  .product-containerthird{
+  display: flex;
+
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+  cursor: pointer;
+  height: 350px;
+  width: 100%;
+  
+  
+  background-color:white;
+  padding: 15px 3px 3px 3px;
+  
+  
+  
+  }
+
+
+  /*  This is the four part  */
+  .product-crouselfour{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+  
+  
+  
+  
+  }
+  .book-headingfour{
+  
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: antiquewhite;
+      padding: 10px 10px;
+      height: 50px;
+      
+  }
+  
+  
+  
+  .product-containerfour{
+  display: flex;
+
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+  cursor: pointer;
+  height: 350px;
+  width: 100%;
+ 
+  
+  background-color:white;
+  padding: 15px 3px 3px 3px;
+  
+  
+  
+  }
+
+
+  /*  This is the fifth part  */
+  .product-crouselfifth{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+  
+  
+  
+  
+  }
+  .book-headingfifth{
+  
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: antiquewhite;
+      padding: 10px 10px;
+      height: 50px;
+      
+  }
+  
+  
+  
+  .product-containerfifth{
+  display: flex;
+
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+  cursor: pointer;
+  height: 350px;
+  width: 100%;
+ 
+  
+  background-color:white;
+  padding: 15px 3px 3px 3px;
+  
+  
+  
+  }
